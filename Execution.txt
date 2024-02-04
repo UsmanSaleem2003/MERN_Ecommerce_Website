@@ -1,0 +1,15 @@
+to run frontend
+go in the frontend directory and write 
+"npm start" in the git
+
+
+
+to run the admin panel
+go in the admin directory and write
+"npm run dev" in the git
+
+
+
+to run backend
+go in the backend directory and write'
+"node index.js" in the git
