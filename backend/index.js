@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 //Database connection with MongoDB
-mongoose.connect("mongodb+srv://u2003252:usman..252@cluster0.uzzg2yu.mongodb.net/e-commerce")
+mongoose.connect("mongodb+srv://u2003252:[YourDatabasePassword]@cluster0.uzzg2yu.mongodb.net/e-commerce")
 
 app.get("/", (req, res) => {
     res.send("Express App Is Running");
